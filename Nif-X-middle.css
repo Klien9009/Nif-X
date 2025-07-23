@@ -1,0 +1,75 @@
+.container{
+  border: 1px solid blue;
+  width: 100%;
+  height: 625px;
+  margin: 60px auto;
+  position: relative;
+}
+
+.banner{
+  height: 600px;
+  margin-top: 60px;
+}
+
+.banner .banner01{
+  position: absolute;
+  top:10px;
+  left:50%;
+  transform: translate(-50%);
+  width: 45%;
+  height: 30%;
+  background-image:linear-gradient(to top right, #8c6e6998,#bbb8b496);
+  border-radius: 4px;
+  text-align: center;
+  font-weight:bold;
+  font-size:xx-large;
+  padding-top: 50px;
+  backdrop-filter: blur(2px);
+    box-shadow: inset 0 50px 50px rgba(0, 0, 0, 0.3);
+}
+
+.banner .banner02{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%);
+  width: 45%;
+  height: 30.6%;
+ background-image:linear-gradient(to top right, #8c6e6998,#bbb8b496);
+  border-radius: 4px;
+  text-align: center;
+  font-weight:bold;
+  font-size:xx-large;
+  padding-top: 50px;
+    box-shadow: inset 0 50px 50px rgba(0, 0, 0, 0.3);
+}
+
+.banner .banner03{
+  position: absolute;
+  top:10px;
+  left:1%;
+  width: 23%;
+  height: 79%;
+ background-image:linear-gradient(to top right, #8c6e6998,#bbb8b496);
+  border-radius: 4px;
+  text-align: center;
+  font-weight:bold;
+  font-size:xx-large;
+  padding-top: 50px;
+    box-shadow: inset 0 50px 50px rgba(0, 0, 0, 0.3);
+}
+
+.banner .banner04{
+  position: absolute;
+  top:10px;
+  right:1%;
+  width: 23%;
+  height: 79%;
+ background-image:linear-gradient(to top right, #8c6e6998,#bbb8b496);
+  border-radius: 4px;
+  text-align: center;
+  font-weight:bold;
+  font-size:xx-large;
+  padding-top: 50px;
+  box-shadow: inset 0 50px 50px rgba(0, 0, 0, 0.3);
+}

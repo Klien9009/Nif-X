@@ -1,0 +1,47 @@
+header{
+  border-bottom:1px solid lightblue;
+  width:100%;
+  position:fixed;
+  top: 0;
+}
+.menu{
+  background-color: rgba(41, 33, 34, 0.74);
+  height: 50px;
+  display: grid;
+  grid-template-columns:200px auto auto auto  ;
+  margin: auto;
+}
+header .menu div{
+
+  display:flex;
+  align-items: center;
+  height: 50px;
+  color: white;
+}
+header .menu .type{
+  justify-content: center;
+}
+header .menu .type ul{
+  list-style: none;
+  padding: 0;
+
+}
+header .menu .type ul li{
+  display: inline-block;
+  font-weight: bold;
+  margin:0 10px;
+}
+.menu .cart{
+  justify-content: right;
+
+}
+header .logo{
+  font-size: xx-large;
+  font-weight: bold;
+  justify-content: center;
+}
+header .menu .Track-order{
+  justify-content:right;
+}
+
+
